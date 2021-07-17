@@ -1,0 +1,29 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1,
+    "total": 3
+  },
+  "1 info pnpm": {
+    "err": {
+      "name": "Error",
+      "message": "@dev-demands/server@1.0.0 start: `node -r esm .`\nExit status 1",
+      "code": "ELIFECYCLE",
+      "stack": "Error: @dev-demands/server@1.0.0 start: `node -r esm .`\nExit status 1\n    at EventEmitter.<anonymous> (C:\\Users\\Meta3\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:106373:20)\n    at EventEmitter.emit (events.js:315:20)\n    at ChildProcess.<anonymous> (C:\\Users\\Meta3\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:94679:18)\n    at ChildProcess.emit (events.js:315:20)\n    at maybeClose (internal/child_process.js:1021:16)\n    at Process.ChildProcess._handle.onexit (internal/child_process.js:286:5)"
+    }
+  },
+  "2 error pnpm": {
+    "errno": 1,
+    "code": "ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL",
+    "pkgid": "@dev-demands/server@1.0.0",
+    "stage": "start",
+    "script": "node -r esm .",
+    "pkgname": "@dev-demands/server",
+    "prefix": "C:\\Users\\Meta3\\Desktop\\Projetos\\GraphQl\\packages\\server",
+    "err": {
+      "name": "Error",
+      "message": "@dev-demands/server@1.0.0 start: `node -r esm .`\nExit status 1",
+      "code": "ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL",
+      "stack": "Error: @dev-demands/server@1.0.0 start: `node -r esm .`\nExit status 1\n    at EventEmitter.<anonymous> (C:\\Users\\Meta3\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:106373:20)\n    at EventEmitter.emit (events.js:315:20)\n    at ChildProcess.<anonymous> (C:\\Users\\Meta3\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:94679:18)\n    at ChildProcess.emit (events.js:315:20)\n    at maybeClose (internal/child_process.js:1021:16)\n    at Process.ChildProcess._handle.onexit (internal/child_process.js:286:5)"
+    }
+  }
+}
