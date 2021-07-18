@@ -1,29 +1,27 @@
 {
   "0 debug pnpm:scope": {
     "selected": 1,
-    "total": 3
+    "total": 2
   },
   "1 info pnpm": {
     "err": {
       "name": "Error",
-      "message": "@dev-demands/server@1.0.0 start: `node -r esm .`\nExit status 1",
-      "code": "ELIFECYCLE",
-      "stack": "Error: @dev-demands/server@1.0.0 start: `node -r esm .`\nExit status 1\n    at EventEmitter.<anonymous> (C:\\Users\\Meta3\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:106373:20)\n    at EventEmitter.emit (events.js:315:20)\n    at ChildProcess.<anonymous> (C:\\Users\\Meta3\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:94679:18)\n    at ChildProcess.emit (events.js:315:20)\n    at maybeClose (internal/child_process.js:1021:16)\n    at Process.ChildProcess._handle.onexit (internal/child_process.js:286:5)"
+      "message": "Unexpected store location",
+      "code": "ERR_PNPM_UNEXPECTED_STORE",
+      "stack": "Error: Unexpected store location\n    at Object.checkCompatibility [as default] (C:\\Users\\pedro\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:91842:15)\n    at C:\\Users\\pedro\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:92359:39\n    at Array.map (<anonymous>)\n    at validateModules (C:\\Users\\pedro\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:92357:34)\n    at Object.getContext [as default] (C:\\Users\\pedro\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:92255:34)\n    at async mutateModules (C:\\Users\\pedro\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:114767:19)\n    at async Object.addDependenciesToPackage (C:\\Users\\pedro\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:115095:24)\n    at async C:\\Users\\pedro\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:117387:31"
     }
   },
   "2 error pnpm": {
-    "errno": 1,
-    "code": "ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL",
-    "pkgid": "@dev-demands/server@1.0.0",
-    "stage": "start",
-    "script": "node -r esm .",
-    "pkgname": "@dev-demands/server",
-    "prefix": "C:\\Users\\Meta3\\Desktop\\Projetos\\GraphQl\\packages\\server",
+    "code": "ERR_PNPM_UNEXPECTED_STORE",
+    "expectedStorePath": "C:\\Users\\Meta3\\.pnpm-store\\v3",
+    "actualStorePath": "C:\\Users\\pedro\\.pnpm-store\\v3",
+    "modulesDir": "C:\\Users\\pedro\\Desktop\\Developer\\Hiring Coders\\graphQl_study\\packages\\server\\node_modules",
+    "prefix": "C:\\Users\\pedro\\Desktop\\Developer\\Hiring Coders\\graphQl_study\\packages\\server",
     "err": {
       "name": "Error",
-      "message": "@dev-demands/server@1.0.0 start: `node -r esm .`\nExit status 1",
-      "code": "ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL",
-      "stack": "Error: @dev-demands/server@1.0.0 start: `node -r esm .`\nExit status 1\n    at EventEmitter.<anonymous> (C:\\Users\\Meta3\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:106373:20)\n    at EventEmitter.emit (events.js:315:20)\n    at ChildProcess.<anonymous> (C:\\Users\\Meta3\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:94679:18)\n    at ChildProcess.emit (events.js:315:20)\n    at maybeClose (internal/child_process.js:1021:16)\n    at Process.ChildProcess._handle.onexit (internal/child_process.js:286:5)"
+      "message": "Unexpected store location",
+      "code": "ERR_PNPM_UNEXPECTED_STORE",
+      "stack": "Error: Unexpected store location\n    at Object.checkCompatibility [as default] (C:\\Users\\pedro\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:91842:15)\n    at C:\\Users\\pedro\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:92359:39\n    at Array.map (<anonymous>)\n    at validateModules (C:\\Users\\pedro\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:92357:34)\n    at Object.getContext [as default] (C:\\Users\\pedro\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:92255:34)\n    at async mutateModules (C:\\Users\\pedro\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:114767:19)\n    at async Object.addDependenciesToPackage (C:\\Users\\pedro\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:115095:24)\n    at async C:\\Users\\pedro\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:117387:31"
     }
   }
 }
